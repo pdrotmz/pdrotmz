@@ -75,12 +75,14 @@ Backend Engineering · Software Architecture · Domain-Driven Design · Distribu
       <a href="https://mindshub-fork.onrender.com/">View website →</a>
     </td>
     <td width="50%" valign="top">
-      <h3>VidaLink</h3>
+      <h3>VidaLink-V2</h3>
       <p>Healthcare management platform built with Java and Spring Boot, supporting clinical and administrative workflows.</p>
       <p>
         <code>Java</code> · <code>Spring Boot</code> · <code>PostgreSQL</code>
       </p>
-      <a href="https://github.com/pdrotmz/vidalink">View repository →</a>
+      <a href="https://github.com/pdrotmz/vidalink-v2-backend">View Backend →</a>
+      <a href="https://github.com/pdrotmz/vidalink-v2-frontend">View Frontend →</a>
+      <a href="https://vidalink-v2-frontend.vercel.app/">View website →</a>
     </td>
   </tr>
   <tr>
