@@ -2,129 +2,88 @@
 
 # Pedro Tomáz
 
-**Backend Software Engineer** — Java · Spring Boot · Distributed Systems
+**Backend Developer — Java · Spring Boot · REST APIs**
 
-Systems Analysis & Development graduate, currently pursuing a postgraduate degree in Software Architecture.
-Focused on building scalable, well-architected backend systems and REST APIs.
+Systems Analysis & Development graduate and postgraduate student in Software Architecture.
+I build backend applications with an emphasis on business rules, maintainability, testing, and pragmatic architecture.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](www.linkedin.com/in/pedro-tomaz-70122830b)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-tomaz-70122830b)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:pedrotomaz918@gmail.com)
 
 </div>
 
-<br>
-
 ## About
 
-I'm a Backend Software Engineer from Brazil, working mainly with **Java and Spring Boot**, with additional professional experience in **PHP, Docker, Kubernetes**, and backend system architecture.
+I'm a backend developer from Brazil, focused primarily on **Java and Spring Boot**.
 
-I care about designing systems that are simple to reason about, easy to maintain, and built to scale — with a strong focus on clean code, distributed systems, and cloud-native practices.
+My work and projects involve REST API development, relational databases, authentication and authorization, automated testing, Docker, CI, and the modernization of existing systems. I also have professional experience with **PHP/CodeIgniter** and build automation tools with **Python**.
 
-**Areas of interest:**
-Backend Engineering · Software Architecture · Domain-Driven Design · Distributed Systems · Microservices · Cloud Computing · DevOps · High Availability · Clean Code
+I'm especially interested in backend engineering, software architecture, domain modeling, legacy modernization, and building systems whose complexity is justified by real requirements.
 
-<br>
+## Selected Projects
 
-## Professional Experience
+### VidaLink V2
 
-- Backend development with Java (Spring Boot) and PHP
-- REST API design and documentation (OpenAPI/Swagger)
-- Legacy system modernization and refactoring
-- Database modeling and optimization (relational and non-relational)
-- Containerization with Docker and orchestration concepts with Kubernetes
-- Microservices architecture and distributed system design
+Full-stack platform designed to encourage blood donation through donation validation, gamification, and a rewards marketplace.
 
-<br>
+The backend is organized around application, domain, infrastructure, and presentation concerns, with JWT authentication, PostgreSQL persistence, MinIO object storage, automated tests, Testcontainers, JaCoCo, Docker, CI, ADRs, and architecture documentation.
 
-## Currently
+**Stack:** Java 21 · Spring Boot · Spring Security · PostgreSQL · MinIO · Testcontainers · Docker · GitHub Actions · Angular
 
-- 🔭 Building **FinderJobs** — a job aggregation and automation platform
-- 🌱 Deepening my knowledge in **AWS** and **Software Architecture**
-- 📚 Postgraduate studies in **Software Architecture**
-- 💬 Open to discussing Java, Spring Boot, Docker, Kubernetes, and API design
+[Backend repository](https://github.com/pdrotmz/vidalink-v2-backend) · [Frontend repository](https://github.com/pdrotmz/vidalink-v2-frontend) · [Live application](https://vidalink-v2-frontend.vercel.app/)
 
-<br>
+### FinderJobs
 
-## Featured Projects
+Job monitoring and notification service created to automate a real problem: finding relevant opportunities without repeatedly checking multiple sources.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>onTeia</h3>
-      <p>Task management platform built with Java 17 and Spring Boot, focused on clean architecture and API design.</p>
-      <p>
-        <code>Java 17</code> · <code>Spring Boot</code> · <code>REST API</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Octor</h3>
-      <p>Modernization of a legacy financial module, refactored into a REST API using PHP and CodeIgniter.</p>
-      <p>
-        <code>PHP</code> · <code>CodeIgniter</code> · <code>Legacy Modernization</code>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Mindshub</h3>
-      <p>Learning platform currently being rebuilt with a strong focus on software architecture principles and scalability.</p>
-      <p>
-        <code>PHP</code> · <code>Docker</code> · <code>React</code> · <code>Architecture</code>
-      </p>
-      <a href="https://github.com/JulioSAlencar/mindshub">View repository →</a> <br>
-      <a href="https://mindshub-fork.onrender.com/">View website →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>VidaLink-V2</h3>
-      <p>Healthcare management platform built with Java and Spring Boot, supporting clinical and administrative workflows.</p>
-      <p>
-        <code>Java</code> · <code>Spring Boot</code> · <code>PostgreSQL</code>
-      </p>
-      <a href="https://github.com/pdrotmz/vidalink-v2-backend">View Backend →</a>
-      <a href="https://github.com/pdrotmz/vidalink-v2-frontend">View Frontend →</a>
-      <a href="https://vidalink-v2-frontend.vercel.app/">View website →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>FinderJobs</h3>
-      <p>Job aggregation and automation platform, built to collect, process, and organize job listings from multiple sources.</p>
-      <p>
-        <code>Python</code> · <code>Automation</code> · <code>APIs</code>
-      </p>
-      <a href="https://github.com/pdrotmz/finderjobs">View repository →</a>
-    </td>
-    <td width="50%" valign="top"></td>
-  </tr>
-</table>
+It collects and filters listings, persists delivery state in SQLite, avoids duplicate notifications, routes opportunities to Discord, retries failed deliveries, and can run continuously as a Linux user service. The project includes automated tests with mocked HTTP integrations and temporary databases.
 
-<br>
+**Stack:** Python · SQLite · HTTP APIs · Discord · systemd
+
+[Repository](https://github.com/pdrotmz/finderjobs)
+
+### REMIND
+
+Backend engineering lab and MVP for coordinating emergency reports between users and eligible organizations.
+
+The project focuses on domain rules and lifecycle correctness before infrastructure complexity. Its architecture is intentionally kept as a modular monolith while the requirements do not justify distributed components.
+
+**Stack:** Java 21 · Spring Boot · Spring Security · PostgreSQL · Flyway · Testcontainers
+
+[Repository](https://github.com/pdrotmz/remind-api)
+
+### SIGEC
+
+Legacy-oriented commercial management system built to practice and understand the Java enterprise ecosystem used by long-lived business applications.
+
+**Stack:** Java 8 · Java EE 7 · JSF · PrimeFaces · WildFly · MySQL
+
+[Repository](https://github.com/pdrotmz/sigec)
+
+## Professional Background
+
+- Backend development and REST API implementation
+- Legacy financial module modernization with PHP and CodeIgniter
+- Relational database modeling and persistence
+- Docker-based application environments and deployment workflows
+- Technical support and troubleshooting in a production IT environment
 
 ## Technologies
 
-**Backend**
-`Java` `Spring Boot` `PHP` `REST APIs`
+**Backend:** Java · Spring Boot · Spring Security · JPA/Hibernate · PHP · CodeIgniter · Python  
+**Data:** PostgreSQL · MySQL · SQLite  
+**Testing:** JUnit · Mockito · Testcontainers · JaCoCo  
+**Infrastructure & Delivery:** Docker · Docker Compose · GitHub Actions · Linux  
+**API & Tools:** REST · OpenAPI/Swagger · Git · GitHub · Postman
 
-**Database**
-`PostgreSQL` `MySQL` `MongoDB`
+## Currently
 
-**DevOps**
-`Docker` `Docker Compose` `Kubernetes`
-
-**Tools**
-`Git` `GitHub` `Swagger / OpenAPI` `Postman`
-
-**Cloud & Monitoring**
-`AWS (Learning)` `Prometheus`
-
-<br>
-
-</div>
-
-<br>
+- Developing **REMIND** as a modular backend focused on domain rules and pragmatic architecture
+- Developing **SIGEC** to deepen hands-on experience with Java EE, JSF, WildFly, and legacy systems
+- Pursuing a postgraduate specialization in **Software Architecture**
 
 <div align="center">
 
-**Let's connect** — [LinkedIn](www.linkedin.com/in/pedro-tomaz-70122830b) · [Email](mailto:pedrotomaz918@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/pedro-tomaz-70122830b) · [Email](mailto:pedrotomaz918@gmail.com)
 
 </div>
